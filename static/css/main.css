@@ -1,0 +1,39 @@
+
+/*****
+Header
+*****/
+.facebook_button, .twitter_button, .yt_button {
+    float: right;
+    height: 32px;
+    width: 32px;
+    margin-left: 6px;
+}
+
+.facebook_button {
+    background: rgba(0, 0, 0, 0) url("../images/facebook.png") repeat scroll 0 0;
+}
+
+.twitter_button {
+    background: rgba(0, 0, 0, 0) url("../images/twitter.png") repeat scroll 0 0;
+}
+
+.yt_button {
+    background: rgba(0, 0, 0, 0) url("../images/yt.png") repeat scroll 0 0;
+}
+
+.htext_style {
+    color: #a9a9a9;
+    font-size: 14px;
+    float: right;
+    margin-right: 12px;
+    padding-top: 5px;
+}
+
+.header-style {
+  background: #fff;
+  padding: 20px 0px;
+  border-bottom: 3px solid #ddd;
+}
+
+
+
