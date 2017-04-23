@@ -29,24 +29,24 @@ Header
 }
 
 .facebook_button {
-    background: rgba(0, 0, 0, 0) url("../images/facebook.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/social/facebook.png") repeat scroll 0 0;
 }
 .facebook_button:hover {
-    background: url("../images/facebook-hover.png");
+    background: url("../images/social/facebook-hover.png");
 }
 
 .twitter_button {
-    background: rgba(0, 0, 0, 0) url("../images/twitter.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/social/twitter.png") repeat scroll 0 0;
 }
 .twitter_button:hover {
-    background: url("../images/twitter-hover.png");
+    background: url("../images/social/twitter-hover.png");
 }
 
 .yt_button {
-    background: rgba(0, 0, 0, 0) url("../images/yt.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/social/yt.png") repeat scroll 0 0;
 }
 .yt_button:hover {
-    background: url("../images/youtube-hover.png");
+    background: url("../images/social/youtube-hover.png");
 }
 
 .htext_style {
@@ -158,4 +158,73 @@ Partners
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+
+/*****
+Features
+*****/
+.uni_life {
+    background: #fff;
+    background-size: cover;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.img_uni_st {
+    border-radius: 3px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.uni_st {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.link_1_btn a, .link_2_btn a, .link_3_btn a, .link_4_btn a {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'open sans', sans-serif;
+    border-radius: 3px;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    display: inline-block;
+    padding: 7px 25px 5px 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.link_1_btn a  {
+    background: #59a3fc;   
+}
+.link_1_btn a:hover {
+    background: #448aef;
+}
+
+.link_2_btn a {
+    background: #7cc576;
+}
+.link_2_btn a:hover {
+    background: #60bb5a;
+}
+
+.link_3_btn a {
+    background: #ff7243;
+}
+.link_3_btn a:hover {
+    background: #f25c33;
+}
+
+.link_4_btn a {
+    background: #cc333f;
+}
+.link_4_btn a:hover {
+    background: #c22731;
 }
