@@ -1,3 +1,18 @@
+/******
+General
+******/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400,500);
+
+body { 
+    font-family: 'Open Sans', sans-serif; !important; 
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
 
 /*****
 Header
@@ -7,10 +22,10 @@ Header
     height: 32px;
     width: 32px;
     margin-left: 6px; 
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
 
 .facebook_button {
@@ -53,13 +68,94 @@ Header
 Contact
 *****/
  .page_style {
-      background: url("../images/university/Bg.png") #1f334a fixed no-repeat center top ;
-      	-webkit-background-size: cover;
-      	-moz-background-size: cover;
-      	-o-background-size: cover;
-      	background-size: cover;
+     background: url("../images/university/Bg.png") #1f334a fixed no-repeat center top ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     padding-top: 135px;
     }
 
+.head_line {
+    text-align: center;
+/*    font-size: 39px;*/
+    font-family: 'open sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 38px;
+    margin-bottom: 14px;
+}
 
+.head_line_2 {
+    color: #a9a9a9;
+}
 
+.college_btn a {
+    background: #7cc576 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: "open sans",sans-serif;
+    font-size: 16px;
+/*    height: 35px;*/
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+    width: 160px;
+}
 
+.college_btn a:hover {
+    background: #60bb5a;
+}
+
+.join_btn a {
+    background: #ff7243 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: "open sans",sans-serif;
+    font-size: 16px;
+/*    height: 35px;*/
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+    width: 160px;
+}
+
+.join_btn a:hover {
+    background: #f25c33;
+}
+
+.college_btn a, .join_btn a {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.note_st {
+    color: #f0fff0;
+    font-family: "open sans",sans-serif;
+    font-size: 13px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+/*    text-align: center;*/
+}
+
+/*****
+Partners
+*****/
+.logos_sect {
+    background: #eee none repeat scroll 0 0 / cover ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
