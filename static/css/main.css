@@ -6,19 +6,32 @@ Header
     float: right;
     height: 32px;
     width: 32px;
-    margin-left: 6px;
+    margin-left: 6px; 
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
 }
 
 .facebook_button {
     background: rgba(0, 0, 0, 0) url("../images/facebook.png") repeat scroll 0 0;
 }
+.facebook_button:hover {
+    background: url("../images/facebook-hover.png");
+}
 
 .twitter_button {
     background: rgba(0, 0, 0, 0) url("../images/twitter.png") repeat scroll 0 0;
 }
+.twitter_button:hover {
+    background: url("../images/twitter-hover.png");
+}
 
 .yt_button {
     background: rgba(0, 0, 0, 0) url("../images/yt.png") repeat scroll 0 0;
+}
+.yt_button:hover {
+    background: url("../images/youtube-hover.png");
 }
 
 .htext_style {
@@ -34,6 +47,19 @@ Header
   padding: 20px 0px;
   border-bottom: 3px solid #ddd;
 }
+
+
+/*****
+Contact
+*****/
+ .page_style {
+      background: url("../images/university/Bg.png") #1f334a fixed no-repeat center top ;
+      	-webkit-background-size: cover;
+      	-moz-background-size: cover;
+      	-o-background-size: cover;
+      	background-size: cover;
+    }
+
 
 
 
