@@ -173,9 +173,11 @@ Features
 
 .img_uni_st {
     border-radius: 3px;
+    width: 220px;
     height: 200px;
-    width: 100%;
     overflow: hidden;
+/*    position: relative;*/
+
 }
 
 .uni_st {
@@ -246,6 +248,7 @@ Contact
     padding-top: 40px;
     padding-bottom: 5px;
     border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 #contact_form input {
@@ -318,13 +321,123 @@ input[type="reset"]:active, input[type="button"]:active {
 /*****
 Testimonials
 *****/
+.envato_unbounce {
+    background: #f5f5f5;
+    font-family: 'open sans', sans-serif;
+    padding: 40px 0px;
+}
 
+.L1_style {
+    display:block;
+    color: #808080;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+}
 
+.L3_style {
+    display: block;
+    color: #a9a9a9;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding-bottom: 20px;
+}
 
+.logo_style {
+    border-radius: 100%;
+}
 
+.b_style {
+    background: #eee;
+    padding-top: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 20px;   
+}
 
+.txt_style {
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'open sans', sans-serif;
+    color: #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.box_style {
+    background: #eee;
+    border-radius: 5px;
+    border-bottom: 3px solid #ddd;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.env_st {
+    color: #7cc576;
+    display: inline-block;
+}
 
 
 /*****
 Footer
 *****/
+
+.foot_st {
+    background: #f2f2f2;
+/*    text-align: center;*/
+}
+
+.rights_st {
+    color: #a9a9a9;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+/*    text-align: left;*/
+    padding-top: 25px;
+/*    position: relative;*/
+/*    display: inline-block;*/
+}
+
+.pixfort_st {
+    color: #f68121;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+/*    text-align: left;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+}
+
+.likes_st {
+    color: #a9a9a9;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 25px;
+    float: right;
+}
+
+.soc_icons {
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    float: right;
+}
+
+iframe.c1 {
+    border: none;
+    overflow: hidden;
+    height: 20px;
+    width: 50px;
+}
+
+
