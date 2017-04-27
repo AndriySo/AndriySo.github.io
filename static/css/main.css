@@ -437,11 +437,13 @@ Footer
 }
 
 .soc_icons {
+    vertical-align: bottom;
     background: rgba(0,0,0,0.1);
     border-radius: 3px;
     position: relative;
     display: inline-block;
-    padding-top: 10px;
+    vertical-align: middle;
+    padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
@@ -449,11 +451,6 @@ Footer
     float: right;
 }
 
-iframe.c1 {
-    border: none;
-    overflow: hidden;
-    height: 20px;
-    width: 50px;
-}
+
 
 
