@@ -517,20 +517,17 @@
                     
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="soc_icons">
-                                <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.5c39137502ea1894df4434ae5ed041c5.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fthemeforest.pixfort.com%2Flanding%2Fflatpack%2F6_university%2F6_university.html&amp;size=m&amp;text=Your%20Page%20Title%20Here%20%3A)&amp;time=1493075972954&amp;type=share&amp;url=http%3A%2F%2Fthemeforest.pixfort.com%2Flanding%2Fflatpack%2F6_university%2F6_university.html&amp;via=pixfort" style="position: static; visibility: visible; width: 61px; height: 20px;">
-                                </iframe>
-                                
-                                <!-- Place this tag where you want the +1 button to render. -->
-                                <!-- <span class="confirm_gp">
-                                        <div class="g-plusone " data-size="medium" data-annotation="none"></div>
-                                     </span>
-
-                                <!== Place this tag after the last +1 button tag. -->
-                                
-                                <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthemeforest.net%2Fuser%2FPixFort&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=445119778844521" class="c1"></iframe>
-
+                                <!-- Your like button code for Facebook -->
+                                <div class="fb-like" 
+                                     data-href="https://andriyso.github.io/" 
+                                     data-layout="button_count" 
+                                     data-action="like" 
+                                     data-size="small" 
+                                     data-show-faces="false" 
+                                     data-share="true">
+                                </div>
                             </div>
-                        
+                         
                             <div class="likes_st">Your likes &amp; share makes us happy!</div>
                         
                     </div>
@@ -541,8 +538,18 @@
     </div> 
       
     <!-- /Footer   -->
-    
-    
+
+      
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=329771537393714";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- /Load Facebook SDK for JavaScript -->
       
     
 
