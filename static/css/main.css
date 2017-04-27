@@ -171,14 +171,30 @@ Features
     padding-top: 40px;
 }
 
-.img_uni_st {
+.my-img-responsive {
     border-radius: 3px;
-    width: 220px;
-    height: 200px;
+    width: 280px;
+    height: 210px;
     overflow: hidden;
-/*    position: relative;*/
-
 }
+.move-to-center-35 {
+    margin-left: -35px;
+}
+.move-to-center-75 {
+    margin-left: -75px;
+}
+
+
+
+/*
+@media only screen and (max-width:768) {
+    .my-img-responsive {
+        border-radius: 3px;
+        width: 100%;
+        height: auto;
+    }
+}
+*/
 
 .uni_st {
     color: #000;
